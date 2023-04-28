@@ -1,4 +1,4 @@
-*, *::after, *::before{
+ *, *::after, *::before{
    padding: 0;
    margin: 0;
    box-sizing: border-box;
@@ -243,17 +243,17 @@ h3{
    }
 }
 @media (max-width: 480px) {
-    h1{
-      font-size: 30px; 
+   h1{
+      font-size: 20px; 
       padding: 0px 0px 0px;
-      padding-top: 50px;
-      height:100px;
+      padding-top: 35px;
+      height: 50px;
       text-align: center;
       text-shadow: rgb(72, 255, 0) 0px 1px;
-      
+   
    }
    h2{
-      font-size: 24px; 
+      font-size: 18px; 
       width: 100%;
       height: 50px;  
       text-align: center;  
@@ -262,8 +262,8 @@ h3{
       
    }
    h3{
-      font-size: 35px; 
-      padding-top: 50px;
+      font-size: 20px; 
+      padding-top: 30px;
       height: 30px;
       text-align: center;
       text-shadow: rgb(72, 255, 0) 0px 1px;
@@ -272,7 +272,7 @@ h3{
    p{
        
       color: #ffffff;
-      font-size: 20px;
+      font-size: 18px;
       text-transform:initial;
       line-height: 2;
       padding-top: 3px;
@@ -288,60 +288,47 @@ h3{
       border: 2px solid rgba(0, 247, 38, 0.24);
       transition: 0.2s linear;
        margin-left: 28%;
-      margin-top: 50px;
+      margin-top: 10px;
    }
    .itemes{
-      font-size: 15px;
-      padding-left: 25px; 
+      font-size: 12px;
+      padding-left: 30px; 
       text-align: center;  
    }
    .itemes_1{
-      font-size: 15px;
-      padding-left: 60px; 
+      font-size: 12px;
+      padding-left: 40px; 
       text-align: center;  
        
    }
    .wtug img{
-      width: 80%;
-       
-      margin-left: -155%;
+      width: 30%;
+      height: 30%;
+      margin-left: -80%;
        
    }
    .menu_1{
-      margin-top:  60px;
+      margin-top:  50px;
    }
 }
 @media (max-width: 320px) {
-   h1{
-      font-size: 15px; 
-      text-align:center;
-      padding: 0px 0px 0px;
-      padding-top: 10px;
-   
+   .itemes{
+      font-size: 10px;
+      padding-left: 6px; 
+      text-align: center;  
+   }
+   .itemes_1{
+      font-size: 10px;
+      padding-left:0px; 
+      text-align: center; 
+      margin: 0px 0px 0px 0px;
    }
    h2{
       font-size: 15px; 
       text-align:center;
       padding: 0px 0px 0px;
-     
    }
-   h3{
-     font-size: 15px; 
-      text-align:center;
-      padding: 0px 0px 0px;
-      padding-top: 10px;
-   }
-   p{
-      padding: 3px;
-      color: #ffffff;
-      font-size: 15px;
-      text-transform:initial;
-      
-      text-align: center;
-      /*text-indent: 25px;*/
-   
-   }
-   .cart{
+    .cart{
       justify-content: center;
       align-items: center;
       border-radius: 50%;
@@ -349,27 +336,35 @@ h3{
       height: 120px;
       border: 2px solid rgba(0, 247, 38, 0.24);
       transition: 0.2s linear;
-      margin-left: 70px;
-      margin-top:  10px;
-   
+      margin-left: 80px;
+      margin-top:  0px;
    }
-   .itemes{
-      font-size: 12px;
-      padding-left: 40px; 
+     h3{
+     font-size: 18px; 
+      text-align:center;
+      padding: 0px 0px 0px;
+      padding-top: 30px;
+   }
+   h1{
+      font-size: 16px; 
+      text-align:center;
+      padding: 0px 0px 0px;
+      padding-top: 60px;
+   }
+   .menu_1{
+      margin-top:  30px;
+   }
+   p{
+      padding: 3px;
+      color: #ffffff;
+      font-size: 15px;
+      text-transform:initial;
       text-align: center;
-      padding: 0px opx opx;
-   }
-   .itemes_1{
-      font-size: 12px;
-      padding-left: 0px;
-      
-      
    }
    .wtug img{
       width: 30%;
       height: 30%;
       margin-left: -80%;
-       
    }
 }
 @media (max-width: 240px) {
