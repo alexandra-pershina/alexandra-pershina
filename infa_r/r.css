@@ -1,0 +1,292 @@
+  body {
+    background-image: url(../img/10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+ }
+ html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .cart_1{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+   max-width: 300px;
+   height: 400px;
+   border-radius: 25px;
+   border: 2px solid #555;
+   margin-right: 10px;
+   margin-bottom: 20px;
+   font-size: 20px;
+   transition: 0.5s linear;
+   margin-left: 40%;
+   margin-top: 25px;
+}
+
+.cart_1:hover{
+   box-shadow: 2px 2px 10px #515151;
+}
+
+.cart_1:nth-child(3n){
+   margin-right: 0;
+}
+
+.cart_1 img{
+   width: 150px;
+   height:150px;
+}
+
+.text{
+   text-align: center;
+}
+ .menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(7, 105, 41, 0.6);
+    border-radius: 25px;
+    border: 2px solid ;
+    margin: 2px auto;
+ }
+ .moinmenu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+ }
+ .itemes {
+    color: rgb(64, 164, 79);
+    text-transform: uppercase;
+    font-size: 20px;
+    transform: 0.5s linear;
+ }
+ .itemes:nth-child(1){
+    margin-right: 30px;
+ }
+ .moinmenu .itemes:hover{
+    text-shadow: rgb(72, 255, 0) 1px 1px;
+ }
+ .text{
+    text-align: center;
+    color: #000;
+ }
+ .prise{
+   background-color: #000000b4;
+   padding: 20px 40px;
+   border-radius: 15px;
+   transition: 0.5s linear;
+   color: #ffffff;
+}
+
+.prise:hover{
+   background-color: #09ad53b4;
+   cursor: pointer;
+}
+
+ h2{
+    padding: 15px;
+    color: #ffffff;
+    font-size: 25px;
+    text-transform:initial;
+    line-height: 1.5;
+    text-align: justify;
+ }
+ h2 text{
+     border: 3px solid ;
+ }
+ .menu_1 {
+    color: rgba(0, 0, 0, 0);
+    display: block;
+    width: 100%;
+    background-color: rgba(7, 105, 41, 0.4);
+    border-radius: 25px;
+    border: 2px solid;
+    margin: 2px auto;
+    text-align: center;  
+    }
+    .wtug{
+       display: flex;
+       
+       width: 60px;
+       height: 60px;
+          }
+          .wtug img{
+             height:35px;
+             width: 35px;
+             padding-top: 12px;
+          }
+      
+            
+          .top{
+             
+              margin-right: 90%; 
+             text-shadow: rgb(72, 255, 0) 0px 1px;
+            padding-top: 20px;
+             text-transform: uppercase;
+             font-size: 10px;
+ 
+              
+          }
+       footer{
+          justify-content: center;
+          text-align: center;  
+          border-top-left-radius: 25px;
+          border-top-right-radius: 25px;
+          background-color: rgba(1, 17, 7, 0.856);
+       }
+       @media (max-width: 1600px) {
+          body {
+          font-size: 20px;
+          background-size: cover;
+          }
+       }
+       @media (max-width: 1366px) {
+        
+       }
+       @media (max-width: 1024px) {
+      
+       }
+       @media (max-width: 800px) {
+       .h2{
+          font-size: 15px;
+       }
+       }
+       @media (max-width: 600px) {
+          
+          .h2{
+             font-size: 15px;
+          }
+          .itemes{
+             font-size: 20px;
+             text-align: center;  
+          }
+       }
+       @media (max-width: 480px) {
+          h2{
+             padding:13px;  
+             padding-top: 1px;
+             color: #ffffff;
+             font-size: 18px;
+             text-transform:initial;
+             line-height: 2;
+             text-align: justify;
+              text-align: center;
+             }
+             .cart_1{
+               justify-content: center;
+               align-items: center;
+                   }
+                 
+           
+           .cart_1{
+               top: 0;
+               right: 0;
+               bottom: 0;
+               left: 0;
+               margin: auto;
+               
+           }
+           
+            .itemes{
+             font-size: 15px;
+             padding-right: 50px; 
+             text-align: center;  
+             }
+             .footer{
+                 height: 10px;
+                 width: 100px;
+             }
+             .wtug{
+                width: 20px;
+                height:20px;
+                margin-left: 75%;
+             }
+             .wtug img{
+                height: 25px;
+                width:25px;
+             }
+             .top{
+             margin: 7px; 
+             }
+             }
+       @media (max-width: 320px) {
+ 
+          h1{
+             font-size: 15px; 
+             width:200px;
+          }
+          h2{
+             font-size: 15px; 
+             width: 200px;
+          }
+          h3{
+             font-size: 15px; 
+             width: 200px;
+          }
+           p{
+             font-size: 15px; 
+          }
+          .cart{
+             height: 100px ;
+             width: 100px;
+          }
+          .itemes{
+             font-size: 12px;
+             margin-right: 30px; 
+             text-align: center;  
+          }
+          .itemes_1{
+             font-size: 12px;
+             margin-right: 30px; 
+             text-align: center;  
+          }
+       }
+       @media (max-width: 240px) {
+          body {
+          width: 100%;
+          font-size: 12px;
+          background-size: cover;
+          margin-right: 5px; 
+          }
+          h1{
+             font-size: 15px; 
+             width:100%;
+             height: 50px;
+          }
+          h2{
+             font-size: 15px; 
+             width: 100%;
+             height: 50px;
+          }
+          h3{
+             font-size: 15px; 
+             width: 100%;
+             height: 30px;
+          }
+           p{
+             font-size: 15px; 
+          }
+          .cart{
+             height: 100px ;
+             width: 100px;
+          }
+          .itemes{
+             font-size: 12px;
+             margin-right: 30px; 
+             text-align: center;  
+          }
+          .itemes_1{
+             font-size: 12px;
+             margin-right: 30px; 
+             text-align: center;  
+          }
+          .wtug img{
+             width: 30%;
+             height: 30%;
+             margin-left: -80%;
+              
+          }
+       }  
