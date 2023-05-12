@@ -250,7 +250,7 @@ h3{
       height: 50px;
       text-align: center;
       letter-spacing: 1px;
-      text-shadow: rgb(72, 255, 0) 0px 1px;
+      text-shadow: rgb(72, 255, 0) 0px 0.5px;
    
    }
    h2{
@@ -259,7 +259,7 @@ h3{
       height: 50px;  
       text-align: center;  
       letter-spacing: 1px;
-      text-shadow: rgb(72, 255, 0) 0px 1px;
+      text-shadow: rgb(72, 255, 0) 0px 0.5px;
       padding: 0px 0px 0px;
       
    }
@@ -269,7 +269,7 @@ h3{
       height: 30px;
       letter-spacing: 1px;
       text-align: center;
-      text-shadow: rgb(72, 255, 0) 0px 1px;
+      text-shadow: rgb(72, 255, 0) 0px 0.5px;
       padding: 20px 0px 0px 0px;
    }
    p{
@@ -302,6 +302,7 @@ h3{
       font-size: 12px;
       letter-spacing: 1.5px;
       width: 15px;
+      text-shadow: rgb(72, 255, 0) 0px 0.5px;
      
    }
    .wtug img{
@@ -319,17 +320,13 @@ h3{
       font-size: 10px;
       padding-left: 6px; 
       text-align: center;  
-   }
-   .itemes_1{
-      font-size: 10px;
-      padding-left:0px; 
-      text-align: center; 
-      margin: 0px 0px 0px 0px;
+	    text-shadow: rgb(72, 255, 0) 0px 0.5px;
    }
    h2{
       font-size: 15px; 
       text-align:center;
       padding: 0px 0px 0px;
+	    text-shadow: rgb(72, 255, 0) 0px 0.5px;
    }
     .cart{
       justify-content: center;
@@ -347,12 +344,14 @@ h3{
       text-align:center;
       padding: 0px 0px 0px;
       padding-top: 30px;
+	      text-shadow: rgb(72, 255, 0) 0px 0.5px;
    }
    h1{
       font-size: 16px; 
       text-align:center;
       padding: 0px 0px 0px;
       padding-top: 60px;
+	    text-shadow: rgb(72, 255, 0) 0px 0.5px;
    }
    .menu_1{
       margin-top:  30px;
