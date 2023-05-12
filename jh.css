@@ -290,16 +290,16 @@ h3{
        margin-left: 28%;
       margin-top: 10px;
    }
+   .menu{
+      display: flex;
+      justify-content: space-around;
+      
+   }
    .itemes{
       font-size: 12px;
-      padding-left: 30px; 
-      text-align: center;  
-   }
-   .itemes_1{
-      font-size: 12px;
-      padding-left: 40px; 
-      text-align: center;  
-       
+      letter-spacing: 1.5px;
+      width: 15px;
+     
    }
    .wtug img{
       width: 30%;
