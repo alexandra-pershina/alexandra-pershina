@@ -1,4 +1,4 @@
-  body {
+ body {
     background-image: url(../img/10.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
@@ -25,7 +25,7 @@
    transition: 0.5s linear;
    margin-left: 40%;
    margin-top: 25px;
-   line-height: 10px;
+   line-height: 0px;
 }
 
 .cart_1:hover{
@@ -40,9 +40,10 @@
    width: 150px;
    height:150px;
 }
-
+ 
 .text{
    text-align: center;
+   line-height: 20px;
 }
  .menu {
     display: flex;
