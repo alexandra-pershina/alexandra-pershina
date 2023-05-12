@@ -11,12 +11,30 @@ body {
    max-width: 1600px;
    width: 100%;
 }
-.menu{
-	 justify-content: space-around;
+  margin: 20px auto 40px;
+   list-style: none;
+   display: flex;
+   justify-content: space-around;
    background-size:center; 
-    
+   border-radius: 25px;
+   align-items: center;
+   width: 98%;
+   min-height: inherit;
+   height: 60%;
+   border: 1px solid rgba(12, 117, 26, 0.763);
+   margin-right: 10px;
+   font-size: 20px;
+   transition: 0.2s linear;
+   margin-left: 0.8%;
+   box-shadow : 1px 0px   15px rgb(0, 250, 0);
    }
    .itemes{
+      font-size: 15px;
+      letter-spacing: 1.5px;
+      width: 35px;
+     
+   } 
+   .itemes_1{
       font-size: 15px;
       letter-spacing: 1.5px;
       width: 35px;
