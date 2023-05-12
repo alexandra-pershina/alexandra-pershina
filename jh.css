@@ -15,7 +15,7 @@ body {
    margin: 20px auto 40px;
    list-style: none;
    display: flex;
-   justify-content: center;
+   justify-content: space-around;
    background-size:center; 
    border-radius: 25px;
    align-items: center;
@@ -28,12 +28,6 @@ body {
    transition: 0.2s linear;
    margin-left: 0.8%;
    box-shadow : 1px 0px   15px rgb(0, 250, 0);
-   
-}
-.menu{
-      display: flex;
-      justify-content: space-around;
-      
    }
    .itemes{
       font-size: 15px;
