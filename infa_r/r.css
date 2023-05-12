@@ -25,6 +25,7 @@
    transition: 0.5s linear;
    margin-left: 40%;
    margin-top: 25px;
+   line-height: 10px;
 }
 
 .cart_1:hover{
