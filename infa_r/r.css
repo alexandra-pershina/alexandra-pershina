@@ -44,6 +44,7 @@
 .text{
    text-align: center;
    line-height: 20px;
+   color: rgb(255, 255, 255); 
 }
  .menu {
     display: flex;
