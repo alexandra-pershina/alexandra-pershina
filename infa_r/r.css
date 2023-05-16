@@ -44,7 +44,7 @@
 .text{
    text-align: center;
    line-height: 20px;
-   color: rgb(255, 255, 255); 
+   
 }
  .menu {
     display: flex;
@@ -74,7 +74,7 @@
  }
  .text{
     text-align: center;
-    color: #000;
+   color: rgb(255, 255, 255); 
  }
  .prise{
    background-color: #000000b4;
