@@ -183,6 +183,7 @@ h3{
 
 .cart_0 img{
    text-align: center;
+	
  
 }
 @media (max-width: 1600px) {
@@ -355,8 +356,8 @@ h3{
          margin: auto;
      }
 .cart_0 img {
-   width: 330px;
-   height: 330px;
+   width: 230px;
+   height: 230px;
 }
 }
 @media (max-width: 320px) {
