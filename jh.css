@@ -354,10 +354,12 @@ h3{
          bottom: 0;
          left: 0;
          margin: auto;
+	    width: 90%;
+         height:100%;  
      }
 .cart_0 img {
-   width: 230px;
-   height: 230px;
+   width: 300px;
+   height: 300px;
 }
 }
 @media (max-width: 320px) {
