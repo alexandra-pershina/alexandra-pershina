@@ -185,8 +185,8 @@ h2 text{
                      margin: auto;
                  }
             .cart_1 img {
-               width: 330px;
-               height: 230px;
+               width: 320px;
+               height: 220px;
             }
             }
       @media (max-width: 320px) {
