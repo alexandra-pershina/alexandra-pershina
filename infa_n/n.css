@@ -9,6 +9,29 @@ body {
     padding: 0;
     box-sizing: border-box;
  }
+ video {
+	width: 200px;
+	height: 150px;
+	border: green solid 1px;
+	border-radius: 10px
+}
+p{
+   color: #ffffff;
+   font-size: 12px;
+   line-height: 1.5;
+}
+h2{
+   padding: 15px 5px 5px 5px;
+   color: #ffffff;
+   font-size: 25px;
+   text-transform:initial;
+   line-height: 1;
+   text-align: center;
+   justify-self:center;
+}
+h2 text{
+    border: 3px solid ;
+}
  .menu {
     display: flex;
     justify-content: center;
@@ -44,7 +67,7 @@ body {
     font-size: 25px;
     text-transform:initial;
     line-height: 1.5;
-    text-align: justify;
+    text-align: center;
  }
  h2 text{
      border: 3px solid ;
@@ -89,6 +112,36 @@ body {
           border-top-right-radius: 25px;
           background-color: rgba(1, 17, 7, 0.856);
        }
+       .cart_1{
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+         align-items: center;
+         width: 100%;
+         max-width: 550px;
+         height: 350px;
+         border-radius: 25px;
+         border: 2px solid #555;
+         margin-left: 30%;
+         margin-bottom: 20px;
+         font-size: 20px;
+         transition: 0.5s linear;
+         margin-top: 25px;
+         line-height: 0px;
+         
+      }
+      
+      .cart_1:hover{
+         box-shadow: 2px 2px 10px #515151;
+      }
+      
+      .cart_1:nth-child(3n){
+         margin-right: 0;
+      }
+      
+      .cart_1 img{
+         text-align: center;
+      }
        @media (max-width: 1600px) {
           body {
           font-size: 20px;
@@ -121,7 +174,7 @@ body {
              padding:13px;  
              padding-top: 1px;
              color: #ffffff;
-             font-size: 18px;
+             font-size: 20px;
              text-transform:initial;
              line-height: 2;
              text-align: justify;
@@ -147,6 +200,27 @@ body {
              .top{
              margin: 0px; 
              }
+             .cart_1{
+               justify-content: center;
+                  align-items: center;
+                  top: 0;
+                  right: 0;
+                  bottom: 0;
+                  left: 0;
+                  margin: auto;
+                  width: 90%;
+                  height: 225px;
+              }
+         .cart_1 img {
+            width: 300px;
+            height: 200px;
+            border-radius: 20px;
+         }
+         p{
+            color: #ffffff;
+            font-size: 14px;
+            padding: 5px 5px 5px 5px;
+         }
              }
        @media (max-width: 320px) {
  
